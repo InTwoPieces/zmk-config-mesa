@@ -70,7 +70,7 @@
             bindings = <
                 &kp EXCL  &kp DQT &kp DE_SECT   &kp DOLLAR  &kp PERCENT    &kp AMPS     &kp SLASH   &kp EQUAL   &kp QMARK  &kp PLUS
                 &kp AT    &trans  &trans        &trans      &trans         &kp HASH     &kp BSLH    &trans      &trans     &kp SQT
-&kp CARET       &kp LT    &KP GT  &kp PIPE      &trans      &trans         &kp UNDER    &trans      &trans      &trans     &kp SLASH  &kp HOME
+&kp CARET       &kp LT    &kp GT  &kp PIPE      &trans      &trans         &kp UNDER    &trans      &trans      &trans     &kp SLASH  &kp HOME
                                   &trans        &mo 3       &trans         &trans       &trans      &trans
             >;
         };
@@ -89,8 +89,8 @@
             display-name = "Adjust";
             bindings = <
                 &trans    &trans  &trans    &trans      &trans         &kp PSCRN  &kp F7      &kp F8    &kp F9   &kp F12
-                &trans    &trans  &trans    &trans      &trans         &trans     &kp F4      &kp F5    &KP F6   &kp F11
-&studio_unlock  &trans    &trans  &trans    &trans      &trans         &trans     &kp F1      &kp F2    &KP F3   &kp F10  &trans
+                &trans    &trans  &trans    &trans      &trans         &trans     &kp F4      &kp F5    &kp F6   &kp F11
+&studio_unlock  &trans    &trans  &trans    &trans      &trans         &trans     &kp F1      &kp F2    &kp F3   &kp F10  &trans
                                   &trans    &trans      &trans         &trans     &trans      &trans
             >;
         };
