@@ -68,7 +68,7 @@
         Sym {
             display-name = "Sym";
             bindings = <
-                &kp EXCL  &kp DQT &kp DE_SECT   &kp DOLLAR  &kp PERCENT    &kp AMSP   &kp SLASH   &kp EQUAL   &kp QMAR  &kp PLUS
+                &kp EXCL  &kp DQT &kp DE_SECT   &kp DOLLAR  &kp PERCENT    &kp AMSP   &kp SLASH   &kp EQUAL   &kp QMARK  &kp PLUS
                 &kp AT    &trans  &trans     &trans      &trans         &kp HASH     &kp BSLH    &trans      &trans    &kp SQM
 &kp CARET       &kp LT    &KP GT  &kp PIPE   &trans      &trans         &kp UNDER  &trans      &trans      &trans    &kp SLASH  &kp HOME
                                   &trans     &mo 3       &trans         &trans     &trans         &trans
