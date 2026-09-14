@@ -1,0 +1,13 @@
+file_format: "1"
+id: mesa
+name: MESA
+type: shield
+url: https://github.com/GEIGEIGEIST/TOTEM
+requires: [seeeduino_xiao_ble]
+features:
+  - keys
+  - studio
+siblings:
+  - mesa_left
+  - mesa_right
+

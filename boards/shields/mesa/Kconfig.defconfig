@@ -1,0 +1,36 @@
+# Copyright (c) 2022 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+# if SHIELD_MESA_DONGLE
+if SHIELD_MESA_LEFT
+
+# Name must be less than 16 characters long!
+config ZMK_KEYBOARD_NAME
+    default "MESA"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+# config ZMK_USB
+    # default y
+# If not set, the default is 1 peripheral part
+# Set to the number of peripheral parts in your split keyboard
+        #config ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS
+    #default 1
+
+# Set this to ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS + your desired number of BT profiles (default is 5)
+        #config BT_MAX_CONN
+    #default 6
+
+# Set this to the same number as BT_MAX_CONN
+        #config BT_MAX_PAIRED
+    #default 6
+
+if SHIELD_MESA_LEFT || SHIELD_MESA_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif
+
