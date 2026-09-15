@@ -10,4 +10,5 @@ features:
 siblings:
   - mesa_left
   - mesa_right
+  - mesa_dongle
 

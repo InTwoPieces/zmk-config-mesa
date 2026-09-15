@@ -20,8 +20,10 @@
 ---
 include:
   - board: seeeduino_xiao_ble
-    shield: mesa_left
+    shield: mesa_dongle
     snippet: studio-rpc-usb-uart
     cmake-args: DCONFIG_ZMK_STUDIO=y
+  - board: seeeduino_xiao_ble
+    shield: mesa_left
   - board: seeeduino_xiao_ble
     shield: mesa_right

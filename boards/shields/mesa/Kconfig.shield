@@ -7,5 +7,5 @@ config SHIELD_MESA_RIGHT
     def_bool $(shields_list_contains,mesa_right)
 
 # No whitespace after the comma or in the keyboard name!
-    #config SHIELD_MESA_DONGLE
-#def_bool $(shields_list_contains,mesa_dongle)
+config SHIELD_MESA_DONGLE
+    def_bool $(shields_list_contains,mesa_dongle)
