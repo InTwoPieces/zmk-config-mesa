@@ -71,7 +71,7 @@
             bindings = <
               &kp TILDE       &trans     &kp UP_ARROW  &kp TAB    &kp DE_LBRC    &kp DE_RBRC  &kp NUMBER_7     &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
               &kp LEFT_SHIFT  &kp LEFT   &kp DOWN      &kp RIGHT  &kp DE_LBKT    &kp DE_RBKT  &kp NUMBER_4     &kp NUMBER_5  &kp NUMBER_6  &kp KP_MULTIPLY
-&kp LEFT_ALT  &kp LEFT_SHIFT  &kp MINUS  &LEFT_WIN     &kp PLUS   &kp DE_LPAR    &kp DE_RPAR  &kp NUMBER_1     &kp NUMBER_2  &kp NUMBER_3  &kp KP_MULTIPLY  &kp PLUS
+&kp LEFT_ALT  &kp LEFT_SHIFT  &kp MINUS  &kp LEFT_WIN     &kp PLUS   &kp DE_LPAR    &kp DE_RPAR  &kp NUMBER_1     &kp NUMBER_2  &kp NUMBER_3  &kp KP_MULTIPLY  &kp PLUS
                                          &trans        &trans     &trans      &kp END    &lt 3 KP_COMMA   &kp DE_DOT
             >;
         };
