@@ -69,10 +69,10 @@
         Nav {
             display-name = "Nav";
             bindings = <
-              &kp TILDE       &trans     &kp UP_ARROW  &kp TAB    &kp DE_LBRC    &kp DE_RBRC  &kp NUMBER_7     &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
-              &kp LEFT_SHIFT  &kp LEFT   &kp DOWN      &kp RIGHT  &kp DE_LBKT    &kp DE_RBKT  &kp NUMBER_4     &kp NUMBER_5  &kp NUMBER_6  &kp KP_MULTIPLY
-&kp LEFT_ALT  &kp LEFT_SHIFT  &kp MINUS  &kp LEFT_WIN     &kp PLUS   &kp DE_LPAR    &kp DE_RPAR  &kp NUMBER_1     &kp NUMBER_2  &kp NUMBER_3  &kp KP_MULTIPLY  &kp PLUS
-                                         &trans        &trans     &trans      &kp END    &lt 3 KP_COMMA   &kp DE_DOT
+              &kp TILDE       &trans     &kp UP_ARROW    &kp TAB    &kp DE_LBRC    &kp DE_RBRC  &kp NUMBER_7     &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
+              &kp LGUI        &kp LEFT   &kp DOWN        &kp RIGHT  &kp DE_LBKT    &kp DE_RBKT  &kp NUMBER_4     &kp NUMBER_5  &kp NUMBER_6  &kp KP_MULTIPLY
+&kp LEFT_ALT  &kp LEFT_CTRL   &kp MINUS  &kp LEFT_SHIFT  &kp PLUS   &kp DE_LPAR    &kp DE_RPAR  &kp NUMBER_1     &kp NUMBER_2  &kp NUMBER_3  &kp KP_DIVIDE  &kp KP_EQUAL
+                                         &trans          &trans     &trans         &kp END      &lt 3 KP_COMMA   &kp DE_DOT
             >;
         };
 
@@ -80,9 +80,9 @@
             display-name = "Sym";
             bindings = <
                 &kp DE_EXCL  &kp DE_DQT &kp DE_SECT   &kp DE_DOLLAR  &kp DE_PERCENT    &kp DE_AMPS     &kp DE_SLASH   &kp DE_EQUAL   &kp DE_QMARK  &kp PLUS
-                &kp DE_AT    &trans  &trans        &trans      &trans         &kp HASH     &kp BSLH    &trans      &trans     &kp SQT
-&kp DE_CARET       &kp DE_LT    &kp DE_GT  &kp DE_PIPE      &trans      &trans         &kp DE_UNDER    &trans      &trans      &trans     &kp DE_SLASH  &kp HOME
-                                  &trans        &mo 3       &trans         &trans       &trans      &trans
+                &kp DE_AT    &trans     &trans        &trans         &trans            &kp HASH        &kp BSLH       &trans         &trans        &kp SQT
+&kp DE_CARET    &kp DE_LT    &kp DE_GT  &kp DE_PIPE   &trans         &trans            &kp DE_UNDER    &trans         &trans         &trans        &kp DE_SLASH  &kp HOME
+                                        &trans        &mo 3          &trans            &trans          &trans         &trans
             >;
         };
 
@@ -92,7 +92,7 @@
                 &trans    &trans  &trans    &trans      &out OUT_USB         &kp PSCRN  &kp F7      &kp F8    &kp F9   &kp F12
                 &trans    &trans  &trans    &trans      &out OUT_BLE         &trans     &kp F4      &kp F5    &kp F6   &kp F11
 &studio_unlock  &trans    &trans  &trans    &trans      &out OUT_TOG         &trans     &kp F1      &kp F2    &kp F3   &kp F10  &trans
-                                  &trans    &trans      &trans         &trans     &trans      &trans
+                                  &trans    &trans      &trans               &trans     &trans      &trans
             >;
         };
 
@@ -119,10 +119,10 @@
         Gaming {
             display-name = "Game";
             bindings = <
-            &kp Z           &kp X  &kp C      &kp V         &sl 5     &trans  &trans  &trans  &trans  &trans
-            &kp TAB         &kp Q  &kp W      &kp E         &kp R     &trans  &trans  &trans  &trans  &trans
-&kp ESCAPE  &kp LEFT_SHIFT  &kp A  &kp S      &kp D         &kp F     &trans  &trans  &trans  &trans  &trans  &trans
-                                   &kp LCTRL  &kp LEFT_ALT  &trans    &trans  &trans  &trans
+            &kp Z           &kp Q  &kp W      &kp E         &kp R     &trans  &trans  &trans  &trans  &trans
+            &kp TAB         &kp A  &kp S      &kp D         &kp F     &trans  &trans  &trans  &trans  &trans
+&kp ESCAPE  &kp LEFT_SHIFT  &kp X  &kp C      &kp V         &sl 7     &trans  &trans  &trans  &trans  &trans  &trans
+                                   &kp LCTRL  &kp LEFT_ALT  &kp SPACE    &trans  &trans  &trans
             >;
         };
 
