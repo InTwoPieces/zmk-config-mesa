@@ -33,7 +33,7 @@
 
 &lt {
     tapping-term-ms = <240>;
-    flavor = "balanced";
+    flavor = "hold-preferred";
     quick-tap-ms = <175>;
 };
 
@@ -70,8 +70,8 @@
             display-name = "Nav";
             bindings = <
               &trans        &trans       &kp UP_ARROW    &kp TAB        &kp DE_LBRC         &kp DE_RBRC  &kp NUMBER_7     &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
-              &kp LGUI      &kp LEFT     &kp DOWN        &kp RIGHT      &kp DE_LBKT         &kp DE_RBKT  &kp NUMBER_4     &kp NUMBER_5  &kp NUMBER_6  &kp KP_MULTIPLY
-&kp LEFT_ALT  &kp LCTRL     &kp DE_COMMA &kp LEFT_SHIFT  &kp DE_DOT     &kp DE_LPAR         &kp DE_RPAR  &kp NUMBER_1     &kp NUMBER_2  &kp NUMBER_3  &kp KP_DIVIDE  &kp KP_EQUAL
+              &kp LGUI      &kp LEFT     &kp DOWN        &kp RIGHT      &kp DE_LPAR         &kp DE_RPAR  &kp NUMBER_4     &kp NUMBER_5  &kp NUMBER_6  &kp KP_MULTIPLY
+&kp LEFT_ALT  &kp LCTRL     &kp DE_COMMA &kp LEFT_SHIFT  &kp DE_DOT     &kp DE_LBKT         &kp DE_RBKT  &kp NUMBER_1     &kp NUMBER_2  &kp NUMBER_3  &kp KP_DIVIDE  &kp KP_EQUAL
                                          &trans          &trans         &trans              &kp END      &lt 3 DE_MINUS   &kp DE_PLUS
             >;
         };
