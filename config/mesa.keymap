@@ -18,11 +18,12 @@
 #define Base        0
 #define Nav         1
 #define Sym         2
-#define Adjust      3
-#define Fun         4
-#define Umlaut      5
-#define Game        6
-#define Gameplus    7
+#define Num         3
+#define Adjust      4
+#define Fun         5
+#define Umlaut      6
+#define Game        7
+#define Gameplus    8
 
 &mt {
     quick-tap-ms = <175>;
@@ -61,18 +62,18 @@
             bindings = <
               &kp Q         &kp W       &kp E          &kp R         &kp T          &kp Y    &kp U        &kp I         &kp O       &kp P
               &hm LGUI A    &hm LALT S  &hm LCTRL D    &hm LSHIFT F  &kp G          &kp H    &hm RSHFT J  &hm RCTRL K   &hm RALT L  &hm RGUI DE_COLON
-&lt 4 ESCAPE  &kp Z         &kp X       &kp C          &kp V         &kp B          &kp N    &kp M        &kp DE_COMMA  &kp DE_DOT  &kp DE_SLASH        &kp DE_MINUS
-                                        &lt 5 DEL      &lt 1 TAB     &kp SPACE      &kp RET  &lt 2 BSPC   &kp DE_APOSTROPHE
+&lt 5 ESCAPE  &kp Z         &kp X       &kp C          &kp V         &kp B          &kp N    &kp M        &kp DE_COMMA  &kp DE_DOT  &kp DE_SLASH        &kp DE_MINUS
+                                        &lt 6 DEL      &lt 1 TAB     &kp SPACE      &lt 3 RET  &lt 2 BSPC   &kp DE_APOSTROPHE
             >;
         };
 
         Nav {
             display-name = "Nav";
             bindings = <
-              &trans        &trans       &kp UP_ARROW    &kp TAB        &kp DE_LBRC         &kp DE_RBRC  &kp NUMBER_7     &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
-              &kp LGUI      &kp LEFT     &kp DOWN        &kp RIGHT      &kp DE_LPAR         &kp DE_RPAR  &kp NUMBER_4     &kp NUMBER_5  &kp NUMBER_6  &kp KP_MULTIPLY
-&kp LEFT_ALT  &kp LCTRL     &kp DE_COMMA &kp LEFT_SHIFT  &kp DE_DOT     &kp DE_LBKT         &kp DE_RBKT  &kp NUMBER_1     &kp NUMBER_2  &kp NUMBER_3  &kp KP_DIVIDE  &kp KP_EQUAL
-                                         &trans          &trans         &trans              &kp END      &lt 3 DE_MINUS   &kp DE_PLUS
+        &trans      &trans      &trans      &trans      &trans          &trans      &trans          &trans          &trans       &trans
+        &kp LGUI    &kp LALT    &kp LCTRL   &kp LSHIFT  &trans          &trans      &kp LEFT        &kp DOWN        &kp UP       &kp RIGHT
+&trans  &trans      &trans      &trans      &trans      &trans          &trans      &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP  &kp END  &trans
+                                &trans      &trans      &trans          &kp ENTER   &lt 4 BACKSPACE   &kp DELETE
             >;
         };
 
@@ -82,7 +83,17 @@
              &kp DE_AT       &kp DE_SQT  &kp DE_CARET  &trans         &trans                 &kp DE_HASH      &trans          &trans         &trans        &trans
              &kp DE_EXCL     &kp DE_DQT  &kp DE_SECT   &kp DE_DOLLAR  &kp DE_PERCENT         &kp DE_AMPS      &kp DE_BSLH     &kp DE_EQUAL   &kp DE_QMARK  &kp DE_PLUS
 &kp DE_TILDE &kp DE_DEGREE   &trans      &kp DE_PIPE   &kp DE_LT      &kp DE_GT              &kp DE_UNDER     &trans          &trans         &trans        &kp DE_SLASH  &kp HOME
-                                    &trans        &mo 3          &trans                 &trans           &trans          &trans
+                                    &trans        &mo 4          &trans                 &trans           &trans          &trans
+            >;
+        };
+
+        Num {
+            display-name = "Num";
+            bindings = <
+             &kp KP_MULTIPLY &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp DE_LBRC          &kp DE_RBRC  &trans      &trans     &trans    &trans
+             &kp KP_DIVIDE   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp DE_LPAR          &kp DE_RPAR  &kp RSHIFT  &kp RCTRL  &kp RALT  &kp RGUI
+&kp KP_PLUS  &kp KP_MINUS    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp DE_LBKT          &kp DE_RBKT  &trans      &trans     &trans    &trans  &trans
+                                           &trans        &kp NUMBER_0  &kp KP_EQUAL         &trans       &trans      &trans
             >;
         };
 
@@ -99,7 +110,7 @@
         Fun {
             display-name = "Fun";
             bindings = <
-        &bootloader  &trans  &trans  &trans  &to 6     &trans  &trans  &trans  &trans   &trans
+        &bootloader  &trans  &trans  &trans  &to 7     &trans  &trans  &trans  &trans   &trans
         &trans       &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans   &trans
 &trans  &trans       &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans   &trans  &trans
                              &trans  &trans  &trans    &trans  &trans  &trans
@@ -121,7 +132,7 @@
             bindings = <
             &kp Z           &kp Q  &kp W      &kp E         &kp R     &trans  &trans  &trans  &trans  &trans
             &kp TAB         &kp A  &kp S      &kp D         &kp F     &trans  &trans  &trans  &trans  &trans
-&kp ESCAPE  &kp LEFT_SHIFT  &kp X  &kp C      &kp V         &sl 7     &trans  &trans  &trans  &trans  &trans  &trans
+&kp ESCAPE  &kp LEFT_SHIFT  &kp X  &kp C      &kp V         &sl 8     &trans  &trans  &trans  &trans  &trans  &trans
                                    &kp LCTRL  &kp LEFT_ALT  &kp SPACE    &trans  &trans  &trans
             >;
         };
