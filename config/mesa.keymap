@@ -92,7 +92,7 @@
             bindings = <
              &kp KP_MULTIPLY &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp DE_LBRC          &kp DE_RBRC  &trans      &trans     &trans    &trans
              &kp KP_DIVIDE   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp DE_LPAR          &kp DE_RPAR  &kp RSHIFT  &kp RCTRL  &kp RALT  &kp RGUI
-&kp KP_PLUS  &kp KP_MINUS    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp DE_LBKT          &kp DE_RBKT  &trans      &trans     &trans    &trans  &trans
+&kp KP_PLUS  &kp KP_MINUS    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp DE_LBKT          &kp DE_RBKT  &kp DE_DOT      &kp DE_COMMA     &trans    &trans  &trans
                                            &trans        &kp NUMBER_0  &kp KP_EQUAL         &trans       &trans      &trans
             >;
         };
@@ -100,8 +100,8 @@
         Adjust {
             display-name = "Adjust";
             bindings = <
-                &trans    &trans  &trans    &trans      &out OUT_USB         &kp PSCRN  &kp F7      &kp F8    &kp F9   &kp F12
-                &trans    &trans  &trans    &trans      &out OUT_BLE         &trans     &kp F4      &kp F5    &kp F6   &kp F11
+                &trans    &trans  &trans    &trans      &out OUT_USB         &trans     &kp F7      &kp F8    &kp F9   &kp F12
+                &trans    &trans  &trans    &trans      &out OUT_BLE         &kp PSCRN  &kp F4      &kp F5    &kp F6   &kp F11
 &studio_unlock  &trans    &trans  &trans    &trans      &out OUT_TOG         &trans     &kp F1      &kp F2    &kp F3   &kp F10  &trans
                                   &trans    &trans      &trans               &trans     &trans      &trans
             >;
