@@ -20,7 +20,7 @@
 ---
 include:
   - board: xiao_ble//zmk
-    shield: mesa_dongle prospector_adapter
+    shield: mesa_dongle #prospector_adapter
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
     artifact-name: mesa_dongle
