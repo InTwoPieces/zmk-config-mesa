@@ -27,8 +27,8 @@ config BT_MAX_CONN
 config BT_MAX_PAIRED
     default 7
 
-# config ZMK_DISPLAY
-#     default y
+config ZMK_DISPLAY
+    default y
 
 endif
 
