@@ -26,7 +26,7 @@
 #define Gameplus    8
 
 &mt {
-    quick-tap-ms = <175>;
+    quick-tap-ms = <100>;
     global-quick-tap;
     flavor = "tap-preferred";
     tapping-term-ms = <170>;
@@ -35,7 +35,7 @@
 &lt {
     tapping-term-ms = <240>;
     flavor = "hold-preferred";
-    quick-tap-ms = <175>;
+    quick-tap-ms = <150>;
 };
 
 / {
@@ -45,8 +45,8 @@
             label = "HOMEROW_MODS";
             #binding-cells = <2>;
             flavor = "tap-preferred";
-            tapping-term-ms = <240>;
-            quick-tap-ms = <175>;
+            tapping-term-ms = <200>;
+            quick-tap-ms = <125>;
             global-quick-tap;
             bindings = <&kp>, <&kp>;
         };
@@ -60,10 +60,10 @@
         Base {
             display-name = "Base";
             bindings = <
-              &kp Q         &kp W       &kp E          &kp R         &kp T          &kp Y    &kp U        &kp I         &kp O       &kp P
-              &hm LGUI A    &hm LALT S  &hm LCTRL D    &hm LSHIFT F  &kp G          &kp H    &hm RSHFT J  &hm RCTRL K   &hm RALT L  &hm RGUI DE_COLON
-&lt 5 ESCAPE  &kp Z         &kp X       &kp C          &kp V         &kp B          &kp N    &kp M        &kp DE_COMMA  &kp DE_DOT  &kp DE_SLASH        &kp DE_MINUS
-                                        &lt 6 DEL      &lt 1 TAB     &lt 3 SPACE    &kp RET  &lt 2 BSPC   &kp DE_APOSTROPHE
+              &kp Q         &kp W       &kp E          &kp R         &kp T          &kp Y      &kp U        &kp I         &kp O       &kp P
+              &hm LGUI A    &hm LALT S  &hm LCTRL D    &hm LSHIFT F  &kp G          &kp H      &hm RSHFT J  &hm RCTRL K   &hm RALT L  &hm RGUI DE_COLON
+&lt 5 ESCAPE  &kp Z         &kp X       &kp C          &kp V         &kp B          &kp N      &kp M        &kp DE_COMMA  &kp DE_DOT  &kp DE_SLASH        &kp DE_MINUS
+                                        &kp DEL        &lt 1 TAB     &lt 3 SPACE    &lt 6 RET  &lt 2 BSPC   &kp DE_APOSTROPHE
             >;
         };
 
